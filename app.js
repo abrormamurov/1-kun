@@ -31,7 +31,7 @@
 // } else BMI >= 25 && BMI <= 29.9;
 // title.textContent = "siz semisiz";
 
-let myNumber = prompt("Son kiriting");
+let myNumber = prompt("1dan 20gacha son kiriting");
 let randomNamber = Math.trunc(20 * Math.random()) + 1;
 
 if (myNumber == randomNamber) {
